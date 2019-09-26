@@ -103,7 +103,7 @@
   height: 250px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #0df006;
 }
 
 .menu .nav-item {
@@ -119,7 +119,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #0df006;
 }
 
 .menu .nav-link {
@@ -136,7 +136,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #0df006;
 }
 
 .nav-item:nth-child(1) {
@@ -180,7 +180,7 @@ body#bg-img {
 }
 
 body#bg-img::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -223,7 +223,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #0df006;
 }
 
 main {
@@ -242,7 +242,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #0df006;
 }
 
 main#home {
@@ -257,7 +257,8 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-      grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+      grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
@@ -268,7 +269,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid;
+  border: #0df006 3px solid;
 }
 
 .about-info .bio {
@@ -300,7 +301,7 @@ main#home h1 {
 .about-info .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  border-bottom: #0df006 5px solid;
 }
 
 .about-info .skillsPro {
@@ -314,7 +315,7 @@ main#home h1 {
 .about-info .skillsPro li::before {
   content: "•";
   padding-right: 4px;
-  color: #eece1a;
+  color: #0df006;
 }
 
 .about-info .skills {
@@ -329,7 +330,7 @@ main#home h1 {
 .about-info .skills li::before {
   content: "•";
   padding-right: 4px;
-  color: #eece1a;
+  color: #0df006;
 }
 
 .projects {
@@ -347,7 +348,7 @@ main#home h1 {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #0df006;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -379,7 +380,7 @@ main#home h1 {
 
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #eece1a;
+  background: #0df006;
   color: #000;
 }
 
@@ -395,7 +396,7 @@ main#home h1 {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #eece1a;
+  background: #0df006;
   color: #000;
 }
 
@@ -470,7 +471,11 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+        grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
